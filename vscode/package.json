@@ -1,8 +1,7 @@
 {
-  "name": "sweetthemevscode",
+  "name": "sweet-raw-theme",
   "version": "1.0.0",
   "description": "Theme inspired by Sweet from EliverLara",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
