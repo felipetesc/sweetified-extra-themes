@@ -1,0 +1,320 @@
+/*
+ * This theme was auto generated!
+ *
+ * Parts of this theme may differ
+ * from the original, and color
+ * definitions using 'alpha'
+ * might not convert properly.
+ *
+ * Tool created by Judah Caruso
+ * https://github.com/kyoto-shift
+ *
+ * License: MIT
+*/
+{
+    "name": "sweet-raw-theme",
+    "color_space_name": "sRGB",
+    "semantic_class": "sweet.raw.dark",
+    "author": "Mark Herpich",
+    "comment": "https://github.com/felipetesc/sweetified-extra-themes",
+    "variables": {
+        "color00": "#161925",
+        "color01": "#F8F8F0",
+        "color02": "#D3DAE3",
+        "color03": "#18293E",
+        "color04": "#DA4677",
+        "color05": "#3A495E",
+        "color06": "#C50ED2",
+        "color07": "color(#845c44 alpha(1.00))",
+        "color08": "#da4677",
+        "color09": "#00e8c6",
+        "color10": "#ED254E",
+        "color11": "#c50ed2",
+        "color12": "#A5A4A6",
+        "color13": "#00c1e4",
+        "color14": "#5294E2",
+        "color15": "color(#834c2c alpha(1.00))",
+        "color16": "color(#853131 alpha(1.00))",
+        "color17": "color(#4f707a alpha(1.00))",
+        "color18": "color(#35506a alpha(1.00))",
+        "color19": "#ffffff",
+        "color20": "#855D81",
+        "color21": "color(#35717c alpha(1.00))",
+        "color22": "color(#6f374b alpha(1.00))",
+        "color23": "color(#81143b alpha(1.00))",
+        "color24": "color(#6b2f66 alpha(1.00))",
+        "color25": "color(#743049 alpha(1.00))",
+        "color26": "color(#775674 alpha(1.00))",
+        "color27": "color(#857583 alpha(1.00))",
+        "color28": "color(#856d56 alpha(1.00))",
+        "color29": "color(#856c83 alpha(1.00))",
+        "color30": "color(#4b7880 alpha(1.00))",
+        "color31": "color(#82602f alpha(1.00))",
+        "color32": "color(#811426 alpha(1.00))",
+        "color33": "color(#81817d alpha(1.00))",
+        "color34": "color(#854e34 alpha(1.00))",
+        "color35": "color(#858585 alpha(1.00))",
+        "color36": "color(#6c6c6c alpha(1.00))",
+        "color37": "color(#6f5085 alpha(1.00))",
+        "color38": "color(#567618 alpha(1.00))",
+        "color39": "color(#6a0085 alpha(1.00))",
+        "color40": "color(#505050 alpha(1.00))",
+        "color41": "color(#2d2d2d alpha(1.00))",
+        "color42": "color(#3d3b31 alpha(1.00))"
+    },
+    "globals": {
+        "background": "var(color00)",
+        "caret": "var(color01)",
+        "foreground": "var(color02)",
+        "invisibles": "var(color02)",
+        "line_highlight": "var(color03)",
+        "selection": "var(color04)"
+    },
+    "rules": [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(color05)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(color06)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(color07)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(color08)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(color07)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(color09)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(color10)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(color10)"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "font_style": "italic",
+            "foreground": "var(color11)"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "font_style": "underline",
+            "foreground": "var(color12)"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "font_style": "italic underline",
+            "foreground": "var(color13)"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "font_style": "italic",
+            "foreground": "var(color15)"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(color16)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(color17)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(color18)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(color19)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(color13)"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.other.variable"
+        },
+        {
+            "name": "PHP Namespaces",
+            "scope": "support.other.namespace, entity.name.type.namespace",
+            "foreground": "var(color20)"
+        },
+        {
+            "name": "PHP Namespace Alias",
+            "scope": "support.other.namespace.use-as.php",
+            "foreground": "var(color21)"
+        },
+        {
+            "name": "PHP Namespace Keyword",
+            "scope": "variable.language.namespace.php",
+            "foreground": "var(color22)"
+        },
+        {
+            "name": "PHP Namespace Separator",
+            "scope": "punctuation.separator.inheritance.php",
+            "foreground": "var(color23)"
+        },
+        {
+            "name": "CSS Functions / Property Values",
+            "scope": "support.function.misc.css, support.constant.property-value.css, support.constant.font-name.css",
+            "foreground": "var(color07)"
+        },
+        {
+            "name": "Twig Tagbraces",
+            "scope": "meta.tag.template.value.twig, meta.tag.template.block.twig",
+            "foreground": "var(color24)"
+        },
+        {
+            "name": "Twig Keywords",
+            "scope": "keyword.control.twig",
+            "foreground": "var(color25)"
+        },
+        {
+            "name": "Twig Objects",
+            "scope": "variable.other.twig",
+            "foreground": "var(color26)"
+        },
+        {
+            "name": "Twig Object Properties",
+            "scope": "variable.other.property.twig",
+            "foreground": "var(color27)"
+        },
+        {
+            "name": "Twig Language Constants",
+            "scope": "constant.language.twig",
+            "foreground": "var(color28)"
+        },
+        {
+            "name": "Twig Numerical Constants",
+            "scope": "constant.numeric.twig",
+            "foreground": "var(color29)"
+        },
+        {
+            "name": "Twig Filters",
+            "scope": "support.function.twig",
+            "foreground": "var(color30)"
+        },
+        {
+            "name": "Twig User-Defined Filters",
+            "scope": "meta.function-call.other.twig",
+            "foreground": "var(color31)"
+        },
+        {
+            "name": "Twig Macros",
+            "scope": "meta.function-call.twig",
+            "foreground": "var(color31)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "background": "var(color32)",
+            "foreground": "var(color33)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "background": "var(color34)",
+            "foreground": "var(color33)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array",
+            "foreground": "var(color35)"
+        },
+        {
+            "name": "Text",
+            "scope": "variable.parameter.function",
+            "foreground": "var(color36)"
+        },
+        {
+            "name": "Attribute IDs",
+            "scope": "entity.other.attribute-name.id, punctuation.definition.entity",
+            "foreground": "var(color14)"
+        },
+        {
+            "name": "Language Literal",
+            "scope": "variable.language.super, variable.language.this, variable.language.self",
+            "foreground": "var(color37)"
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(color23)"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(color38)"
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(color39)"
+        },
+        {
+            "name": "GitGutter ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(color40)"
+        },
+        {
+            "name": "GitGutter untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "var(color41)"
+        },
+        {
+            "name": "diff.header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(color42)"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(color23)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(color38)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(color39)"
+        }
+    ]
+}
